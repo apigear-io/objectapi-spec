@@ -1,0 +1,19 @@
+{
+  "name": "objectapi-site",
+  "version": "0.0.1",
+  "description": "ObjectAPI Specification",
+  "authors": {
+    "name": "JRyannel",
+    "email": "jryannel@apigear.io"
+  },
+  "repository": "https://github.com/apigear-io/objectapi-docs/objectapi-docs",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
+  }
+}

@@ -37,7 +37,8 @@ features3: # ObjectLink
 footer: MIT Licensed | Copyright © 2021-present ApiGear UG
 ---
 
-# [ObjectAPI Specification](/guide/specification.html)
+Read the [ObjectAPI Specification →](/guide/specification.html)
+
 
 <code-group>
 <code-block title="ObjectAPI">

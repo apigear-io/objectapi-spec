@@ -146,7 +146,7 @@ signals:
   </div>
 </template>
 
-# [ObjectLink Protocol](https://objectlink.io)
+# [ObjectLink Protocol](https://objectlinkprotocol.net)
 
 <div class="hero">
   <p class="description">Link Objects over WebSockets</p>

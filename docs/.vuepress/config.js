@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/objectapi-site',
+  base: '/objectapi-spec',
   title: 'ObjectAPI',
   description: 'Create the future of API driven architectures',
   themeConfig: {

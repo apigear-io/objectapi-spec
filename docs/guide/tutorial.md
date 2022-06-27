@@ -52,20 +52,19 @@ interfaces:
         description: update current station
         params:
           - name: stationId
-          - type: id
+          - type: int
 
 structs:
   - name: Station
     fields:
       - name: stationId
-        type: id
+        type: int
         description: station id
       - name: name
         type: string
         description: station name
       - name: modified
         type: string
-        format: date-time
         description: station last time modified
 
 enums:

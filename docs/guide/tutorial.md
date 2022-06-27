@@ -37,10 +37,11 @@ interfaces:
     description: A tuner service to manages tuner stations
     properties:
       - name: currentStation
-        type: Station
+        type: {ref: Station}
         description: current selected station
       - name: stationList
-        type: Station[]
+        type: array
+        items: {ref: Station}
         description: list of current available stations
     operations:
       - name: nextStation
@@ -99,13 +100,13 @@ interfaces:
   - name: WeatherStation
   - properties:
       - { name: temperature, type: float }
-      - { name: lastError, type: Error }
+      - { name: lastError, type: {ref: Error} }
   - operations:
       - { name: reset }
   - signals:
       - name: error
         params:
-          - { name: error, type: Error }
+          - { name: error, type: {ref: Error} }
 
 structs:
   - name: Error
